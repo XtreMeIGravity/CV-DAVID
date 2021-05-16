@@ -1,6 +1,6 @@
 {
     "data": {
-        "img_profile": "assets/img/dsa.jpg",
+        "img_profile": "assets/img/David.jpg",
         "name": "David Lopez Hernandez",
         "social_networks": [
             {
@@ -81,8 +81,16 @@
         ],
         "hobbies": [
             {
-                "Nombre": "Diciembre 2017 - Actualidad",
-                "Imagen": "Indra"
+                "Nombre": "Gaming",
+                "Imagen": "gaming"
+            },
+            {
+                "Nombre": "Pc Building",
+                "Imagen": "pcbuild"
+            },
+            {
+                "Nombre": "Musica",
+                "Imagen": "music"
             }
         ],
         "idiomas": [

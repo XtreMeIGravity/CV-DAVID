@@ -35,7 +35,7 @@ export class HeaderComponent implements OnInit {
   downloadCV() {
 
     this.dataService.downloadFile('assets/pdf/cv.pdf').subscribe(blob => {
-      importedSaveAs(blob, 'CV-Fernando-Urena-Gomez.pdf');
+      importedSaveAs(blob, 'CV-David-Lopez-Hernadez.pdf');
     });
   }
 

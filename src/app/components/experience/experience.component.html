@@ -12,7 +12,10 @@
             <tbody>
                 <tr *ngFor="let row of Hobbies">
                     <td>{{row.Nombre}}</td>
-                    <td>{{row.Imagen}}</td>
+                    <td>
+                        <img class="card-image-top w-100 img-fluid" [src]="'assets/img/hobbies/' + row.Imagen + '.jpg'" />
+                    </td>
+                    
                 </tr>
             </tbody>
         </table>

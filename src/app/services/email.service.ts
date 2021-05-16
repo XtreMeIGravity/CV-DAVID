@@ -6,7 +6,7 @@ export class EmailService {
 
     private _url;
 
-    public set url(url){
+    public set url(url) {
         this._url = url;
     }
 
