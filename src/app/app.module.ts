@@ -21,6 +21,7 @@ import { PersonalDataComponent } from './components/personal-data/personal-data.
 import { WorksComponent } from './components/works/works.component';
 import { RepositoriesComponent } from './components/repositories/repositories.component';
 import { CoursesComponent } from './components/courses/courses.component';
+import { IdiomasComponent } from './components/idiomas/idiomas.component';
 
 // Services
 import { DataService } from './services/data.service'
@@ -56,7 +57,8 @@ export function configFactory(provider: DdrConfigurationService) {
     SanitizePipe,
     CoursesComponent,
     RepositoriesComponent,
-    TranslatePipe
+    TranslatePipe,
+    IdiomasComponent
   ],
   imports: [
     BrowserModule,

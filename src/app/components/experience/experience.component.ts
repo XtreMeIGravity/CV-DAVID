@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
-  public experiences: any[];
+  public Hobbies: any[];
 
   constructor(
     private ddrConfigurationService: DdrConfigurationService,
@@ -20,7 +20,7 @@ export class ExperienceComponent implements OnInit {
 
     this.ddrSpinnerService.showSpinner();
     const data = this.ddrConfigurationService.getData("data");
-    this.experiences = data.experiencias;
+    this.Hobbies = data.hobbies;
 
     this.ddrSpinnerService.hideSpinner();
 

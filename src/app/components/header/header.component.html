@@ -20,7 +20,10 @@
         <a class="nav-link" [routerLink]="['estudios']">Estudios</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['experiencia-laboral']">Experiencia</a>
+        <a class="nav-link" [routerLink]="['idiomas']">Idiomas</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['experiencia-laboral']">Hobbies</a>
       </li>
       <li *ngIf="showContact" class="nav-item" routerLinkActive="active">
         <a class="nav-link" [routerLink]="['contacto']">Contacto</a>
@@ -34,8 +37,11 @@
       <li *ngIf="showRepositories" class="nav-item" routerLinkActive="active">
         <a class="nav-link" [routerLink]="['repositorios']">Repositorios</a>
       </li>
-      <li class="nav-item" routerLinkActive="active" (click)="downloadCV()">
-        <a class="btn btn-primary text-light">Descargar CV</a>
+      <li class="nav-item " routerLinkActive="active" (click)="downloadCV()">
+        <a class="btn btn-primary text-light margin-left:10px">Descargar CV</a>
+      </li>
+      <li class="nav-item " routerLinkActive="active" (click)="downloadCV()">
+        <a class="btn btn-secondary text-light" style="margin-left:10px">Mi llave Pública</a>
       </li>
     </ul>
 

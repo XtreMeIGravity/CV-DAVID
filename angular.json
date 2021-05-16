@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "curriculum-vitae-angular"
+  "defaultProject": "curriculum-vitae-angular",
+  "cli": {
+    "analytics": false
+  }
 }

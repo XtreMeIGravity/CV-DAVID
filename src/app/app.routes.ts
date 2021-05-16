@@ -8,12 +8,14 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { StudiesComponent } from './components/studies/studies.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { WorksComponent } from './components/works/works.component';
+import { IdiomasComponent } from './components/idiomas/idiomas.component';
 
 const APP_ROUTES: Routes = [
     {path: 'inicio', component: HomeComponent },
     {path: 'contacto', component: ContactComponent },
     {path: 'datos-personales', component: PersonalDataComponent },
     {path: 'habilidades', component: SkillsComponent },
+    {path: 'idiomas', component: IdiomasComponent },
     {path: 'estudios', component: StudiesComponent },
     {path: 'experiencia-laboral', component: ExperienceComponent },
     {path: 'trabajos', component: WorksComponent },

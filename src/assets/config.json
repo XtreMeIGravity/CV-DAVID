@@ -1,166 +1,94 @@
 {
     "data": {
-        "img_profile": "./assets/img/fernando.jpg",
-        "name": "Fernando Ureña Gómez",
+        "img_profile": "assets/img/dsa.jpg",
+        "name": "David Lopez Hernandez",
         "social_networks": [
             {
                 "name": "Facebook",
                 "icon": "facebook",
-                "link": "https://www.facebook.com/pages/Disco-Duro-de-Roer/516155851734486?ref=hl"
+                "link": "https://www.facebook.com/gr4v1t1/"
             },
             {
                 "name": "Linkedin",
                 "icon": "linkedin",
-                "link": "https://www.linkedin.com/in/fernando-ure%C3%B1a-gomez-07b04049/"
-            },
-            {
-                "name": "Youtube",
-                "icon": "youtube",
-                "link": "https://www.youtube.com/user/DiscoDurodeRoer"
-            },
-            {
-                "name": "Twitter",
-                "icon": "twitter",
-                "link": "https://twitter.com/DiscoDurodeRoer"
-            },
-            {
-                "name": "Web",
-                "icon": "globe",
-                "link": "https://www.discoduroderoer.es"
+                "link": "https://www.linkedin.com/in/david-lopez-hernandez-653057202/"
             },
             {
                 "name": "Github",
                 "icon": "github",
-                "link": "https://github.com/DiscoDurodeRoer"
+                "link": "https://github.com/XtreMeIGravity"
             }
         ],
         "datos_personales": [
             {
                 "column_display": "Nombre",
-                "column_value": "Fernando"
+                "column_value": "David"
             },
             {
                 "column_display": "Apellidos",
-                "column_value": "Ureña Gómez"
+                "column_value": "Lopez Hernandez"
             },
             {
                 "column_display": "Fecha nacimiento",
-                "column_value": "05/02/1990"
+                "column_value": "15/09/1998"
             },
             {
                 "column_display": "Email",
-                "column_value": "fernando.ureña.gomez@gmail.com"
+                "column_value": "xtremeigravity@hotmail.com"
+            },
+            {
+                "column_display": "Celular",
+                "column_value": "5550512742"
             },
             {
                 "column_display": "Nacionalidad",
-                "column_value": "Española"
-            },
-            {
-                "column_display": "Carnet conducir",
-                "column_value": "Tipo B"
-            },
-            {
-                "column_display": "Vehiculo propio",
-                "column_value": "Si"
+                "column_value": "Mexicano"
             },
             {
                 "column_display": "Ciudad preferible para trabajar",
-                "column_value": "Ciudad Real"
+                "column_value": "Ciudad de Mexico"
             }
         ],
         "estudios": [
             {
-                "rango": "2016-2017",
-                "lugar": "IES Maestre de Calatrava, Ciudad Real",
-                "titulo": "Técnico en desarrollo de aplicaciones web (e-learning)",
-                "nota": "9"
+                "rango": "2015-2018",
+                "lugar": "CECYTEM CHIMALHUACAN II, Estado de mexico",
+                "titulo": "Tecnico en programacion",
+                "nota": "9.8"
             },
             {
-                "rango": "2012-2014",
-                "lugar": "IES Maestre de Calatrava, Ciudad Real",
-                "titulo": "Técnico en desarrollo de aplicaciones multiplataforma",
-                "nota": "9.64"
-            },
-            {
-                "rango": "2010-2012",
-                "lugar": "IES Maestre de Calatrava, Ciudad Real",
-                "titulo": "Técnico en Microsistemas Informáticos y Redes",
-                "nota": "9.31"
+                "rango": "2018-Actualidad",
+                "lugar": "ESCOM IPN, Ciudad de México",
+                "titulo": "Ingenieria en Sistemas Computacionales",
+                "nota": "8.5"
             }
         ],
         "cursos": [
             {
-                "anio": "2018",
-                "nombre": "Lua Programming and Game Development with LÖVE",
+                "anio": "2020",
+                "nombre": "DJANGO",
                 "lugar": "Udemy",
-                "horas": "5.5",
+                "horas": "40",
                 "tipo": "Online"
             },
             {
-                "anio": "2018",
-                "nombre": "Bootstrap 4: El Curso Completo, Práctico y Desde Cero",
+                "anio": "Actualidad",
+                "nombre": "Angular CLI",
                 "lugar": "Udemy",
-                "horas": "19",
+                "horas": "50",
                 "tipo": "Online"
-            },
-            {
-                "anio": "2012",
-                "nombre": "Community manager",
-                "lugar": "Universidad Deusto",
-                "horas": "300",
-                "tipo": "A distancia"
-            },
-            {
-                "anio": "2011",
-                "nombre": "Cisco Information Technology Essentials: Hardware and Software",
-                "lugar": "IES Maestre de Calatrava",
-                "horas": "20",
-                "tipo": "Presencial"
-            },
-            {
-                "anio": "2011",
-                "nombre": "Diseño de páginas web",
-                "lugar": "Universidad Deusto",
-                "horas": "250",
-                "tipo": "A distancia"
             }
         ],
-        "experiencias": [
+        "hobbies": [
             {
-                "rango": "Diciembre 2017 - Actualidad",
-                "compania": "Indra",
-                "posicion": "Programador",
-                "descripcion": "Trabajando realizando aplicaciones del area de Sanidad"
-            },
+                "Nombre": "Diciembre 2017 - Actualidad",
+                "Imagen": "Indra"
+            }
+        ],
+        "idiomas": [
             {
-                "rango": "Julio 2016 – Septiembre 2016",
-                "compania": "Everis",
-                "posicion": "Soporte técnico",
-                "descripcion": "Contratado para suplir vacaciones, realizaba tareas de despliegue y de gestión de servidores"
-            },
-            {
-                "rango": "Abril 2015 - Diciembre 2017",
-                "compania": "Autonomo",
-                "posicion": "Freelance",
-                "descripcion": "Trabajo como freelance haciendo aplicaciones, creando y reparando webs en Fiverr"
-            },
-            {
-                "rango": "Marzo 2014 - Junio 2014",
-                "compania": "Goodwebsite",
-                "posicion": "Programador en la empresa",
-                "descripcion": "Realizaba páginas web y aplicaciones a medida para clientes"
-            },
-            {
-                "rango": "Abril 2015 - Diciembre 2017",
-                "compania": "Autonomo",
-                "posicion": "Profesor particular",
-                "descripcion": "Doy clases particulares de programación en classgap"
-            },
-            {
-                "rango": "Marzo 2012 - Junio 2012",
-                "compania": "SEC",
-                "posicion": "Administrador de sistemas",
-                "descripcion": "Encargado de las redes y del mantenimiento y funcionamiento de los equipos de la empresa"
+                "nombre": "Ingles",
+                "valor": "30"
             }
         ],
         "habilidades": [
@@ -169,43 +97,23 @@
                 "valor": "90"
             },
             {
-                "nombre": "VB .Net",
-                "valor": "80"
-            },
-            {
                 "nombre": "Angular",
-                "valor": "90"
-            },
-            {
-                "nombre": "IONIC",
-                "valor": "80"
-            },
-            {
-                "nombre": "Python",
-                "valor": "60"
-            },
-            {
-                "nombre": "PHP",
-                "valor": "60"
-            },
-            {
-                "nombre": "Android",
                 "valor": "30"
             },
             {
-                "nombre": "Wordpress",
-                "valor": "90"
+                "nombre": "Python",
+                "valor": "70"
+            },
+            {
+                "nombre": "PHP",
+                "valor": "40"
             },
             {
                 "nombre": "CSS",
                 "valor": "80"
             },
             {
-                "nombre": "C#",
-                "valor": "40"
-            },
-            {
-                "nombre": "Prestashop",
+                "nombre": "C",
                 "valor": "70"
             },
             {
@@ -213,16 +121,8 @@
                 "valor": "70"
             },
             {
-                "nombre": "Oracle",
-                "valor": "60"
-            },
-            {
                 "nombre": "Javascript",
-                "valor": "80"
-            },
-            {
-                "nombre": "Magento",
-                "valor": "30"
+                "valor": "50"
             },
             {
                 "nombre": "Bootstrap",
@@ -231,28 +131,20 @@
             {
                 "nombre": "HTML",
                 "valor": "80"
-            },
-            {
-                "nombre": "Lua",
-                "valor": "60"
-            },
-            {
-                "nombre": "Love2d",
-                "valor": "60"
             }
         ]
     },
     "config": {
         "webUrl": "https://www.discoduroderoer.es",
-        "categoryId": 2060,
+        "categoryIda": 2060,
         "itemsPerPageWorks": "6",
         "urlPHPEmail": "http://www.fernando-urena-gomez.es/php/email.php",
         "showSkills": true,
-        "showContact": true,
-        "showWorks": true,
-        "showCourses": true,
+        "showContact": false,
+        "showWorks": false,
+        "showCourses": false,
         "showRepositories": true,
-        "urlGithubRepositories": "https://api.github.com/users/discoduroderoer/repos",
+        "urlGithubRepositories": "https://api.github.com/users/xtremeigravity/repos",
         "urlCoursesUdemy": "https://www.udemy.com/instructor-api/v1/taught-courses/courses/",
         "tokenUdemy": "8lb0v4ullQ8pU6ZQj8zyeHfyu2oxextO"
     }
