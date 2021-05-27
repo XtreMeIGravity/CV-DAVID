@@ -22,6 +22,7 @@ import { WorksComponent } from './components/works/works.component';
 import { RepositoriesComponent } from './components/repositories/repositories.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
+import { KeyComponent } from './components/key/key.component';
 
 // Services
 import { DataService } from './services/data.service'
@@ -58,7 +59,8 @@ export function configFactory(provider: DdrConfigurationService) {
     CoursesComponent,
     RepositoriesComponent,
     TranslatePipe,
-    IdiomasComponent
+    IdiomasComponent,
+    KeyComponent
   ],
   imports: [
     BrowserModule,

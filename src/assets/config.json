@@ -79,6 +79,20 @@
                 "tipo": "Online"
             }
         ],
+        "Keys": [
+            {
+                "nombre": "Key1",
+                "key": "Udemy1"
+            },
+            {
+                "nombre": "Key2",
+                "key": "Udemy2"
+            },
+            {
+                "nombre": "Key3",
+                "key": "Udemy3"
+            }
+        ],
         "hobbies": [
             {
                 "Nombre": "Gaming",

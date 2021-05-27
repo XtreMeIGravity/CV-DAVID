@@ -37,11 +37,11 @@
       <li *ngIf="showRepositories" class="nav-item" routerLinkActive="active">
         <a class="nav-link" [routerLink]="['repositorios']">Repositorios</a>
       </li>
+      <li *ngIf="showRepositories" class="nav-item" routerLinkActive="active" >
+        <a class="nav-link" [routerLink]="['key']">Llaves  Pública</a>
+      </li>
       <li class="nav-item " routerLinkActive="active" (click)="downloadCV()">
         <a class="btn btn-primary text-light margin-left:10px">Descargar CV</a>
-      </li>
-      <li class="nav-item " routerLinkActive="active" >
-        <a class="btn btn-secondary text-light" style="margin-left:10px">Mi llave Pública</a>
       </li>
     </ul>
 

@@ -9,6 +9,7 @@ import { StudiesComponent } from './components/studies/studies.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { WorksComponent } from './components/works/works.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
+import { KeyComponent } from './components/key/key.component';
 
 const APP_ROUTES: Routes = [
     {path: 'inicio', component: HomeComponent },
@@ -23,6 +24,7 @@ const APP_ROUTES: Routes = [
     {path: 'trabajos', component: WorksComponent },
     {path: 'cursos', component: CoursesComponent },
     {path: 'repositorios', component: RepositoriesComponent },
+    {path: 'key', component:KeyComponent },
     {path: '**', pathMatch: 'full', redirectTo: 'inicio'}
 ];
 
