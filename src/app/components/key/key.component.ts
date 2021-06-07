@@ -1,6 +1,8 @@
 import { DdrSpinnerService } from "ddr-spinner";
 import { DdrConfigurationService } from "ddr-configuration";
 import { Component, OnInit } from "@angular/core";
+import { saveAs as importedSaveAs } from "file-saver";
+import { DataService } from './../../services/data.service';
 
 @Component({
   selector: "app-key",
@@ -11,7 +13,8 @@ export class KeyComponent implements OnInit {
   public Keys: any[];
   constructor(
     private ddrConfigurationService: DdrConfigurationService,
-    private ddrSpinnerService: DdrSpinnerService
+    private ddrSpinnerService: DdrSpinnerService,
+    private dataService: DataService
   ) {}
 
   ngOnInit() {
@@ -21,4 +24,12 @@ export class KeyComponent implements OnInit {
 
     this.ddrSpinnerService.hideSpinner();
   }
+
+  downloadFile(FileName) {
+
+    this.dataService.downloadFile(`assets/pdf/${FileName}`).subscribe(blob => {
+      importedSaveAs(blob, `${FileName}`);
+    });
+  }
+
 }

@@ -1,23 +1,25 @@
 <div id="experience" class="row">
-    <div class="col-12 h-100">
+  <div class="col-12 h-100">
+    <h1>Hobbiess</h1>
+    <table class="table table-striped table-responsive">
+      <thead>
+        <tr>
+          <th>Nombre:</th>
+          <th>LLave</th>
+          <th>Llave Publica</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of Keys">
+          <td>{{ row.nombre }}</td> 
+          <td>{{ row.key }}</td>
+          <td>
+                <a (click)="downloadFile(row.file)" class="btn btn-primary text-light margin-left:10px">Descargar Llave</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-        <h1>Hobbiess</h1>
-        <table class="table table-striped  table-responsive">
-            <thead>
-                <tr>
-                    <th>Nombre:</th>
-                    <th>Imagen</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let row of Keys">
-                    <td>{{row.nombre}}</td>
-                    <td>{{row.key}}</td>
-                    
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    
-    <ddr-spinner></ddr-spinner>
+  <ddr-spinner></ddr-spinner>
 </div>

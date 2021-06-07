@@ -81,16 +81,19 @@
         ],
         "Keys": [
             {
-                "nombre": "Key1",
-                "key": "Udemy1"
+                "nombre": "Alicia",   
+                "key": "Alicia",
+                "file":"Alicia.pub"
             },
             {
-                "nombre": "Key2",
-                "key": "Udemy2"
+                "nombre": "Betito",
+                "key": "Betito",
+                "file":"Betito.pub"
             },
             {
-                "nombre": "Key3",
-                "key": "Udemy3"
+                "nombre": "Eva",
+                "key": "Eva",
+                "file":"Eva.pub"
             }
         ],
         "hobbies": [
